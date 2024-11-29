@@ -1,6 +1,6 @@
 # Todo List App 
 
-A simple Todo List app built with **React Native**. This app allows users to add, complete, and remove tasks. 
+A Todo List app built with **React Native**. This app allows users to add, complete, and remove tasks. 
 
 ---
 
