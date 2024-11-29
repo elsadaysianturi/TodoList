@@ -69,10 +69,10 @@ Using Expo
 #### - Screenshots
 | Feature       | Status      |
 |---------------|-------------|
-| Add Task      | ![Todo App Screenshot](./assets/SS/AddTask.jpeg)|
-| Delete Task   | ![Todo App Screenshot](./assets/SS/DeleteTask.jpeg)|
-|Task List      |![Todo App Screenshot](./assets/SS/ListTask.jpeg)|
-|Completed task |![Todo App Screenshot](./assets/SS/CompletedTask.jpeg)|
+| Add Task      | <img src="./assets/SS/AddTask.jpeg" alt="Todo List App Screenshot" width="300">|
+| Delete Task   | <img src="./assets/SS/DeleteTask.jpeg" alt="Todo List App Screenshot" width="300">|
+|Task List      | <img src="./assets/SS/ListTask.jpeg" alt="Todo List App Screenshot" width="300">|
+|Completed task | <img src="./assets/SS/CompletedTask.jpeg" alt="Todo List App Screenshot" width="300">|
 
 
 
