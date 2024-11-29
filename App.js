@@ -7,7 +7,6 @@ export default function App() {
   const [task, setTask] = useState('');
   const [taskItems, setTaskItems] = useState([]);
 
-  // Load tasks from AsyncStorage when the app starts
   useEffect(() => {
     const loadTasks = async () => {
       try {
@@ -23,7 +22,6 @@ export default function App() {
     loadTasks();
   }, []);
 
-  // Save tasks to AsyncStorage whenever the list changes
   useEffect(() => {
     const saveTasks = async () => {
       try {
@@ -64,22 +62,16 @@ export default function App() {
 
   // Clear completed tasks
   const clearCompleted = () => {
-    // Filter out tasks that are not completed
     const activeTasks = taskItems.filter(task => !task.completed);
-  
-    // Check if there are completed tasks to remove
     const completedTasks = taskItems.length - activeTasks.length;
   
     if (completedTasks === 0) {
-      // No completed tasks, show an alert or a message to the user
       alert('There are no completed tasks to clear.');
     } else {
-      // There are completed tasks, proceed with clearing them
       setTaskItems(activeTasks);
     }
   };
   
-
   return (
     <View style={styles.container}>
       <View style={styles.header}>
